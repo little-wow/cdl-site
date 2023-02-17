@@ -1,9 +1,20 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Position Statement"
+    url: /position-statement/
+    children:
+    - childtitle: "Statement"
+      childhref: "/position-statement/statement"
+    - childtitle: "Signatories"
+      childhref: "/position-statement/signatories/"
+     - childtitle: "Sign the Statement"
+      childhref: "/position-statement/sign-the-statement"
+    - childtitle: "Download PDF"
+      childhref: "/position-statement/download-pdf/"
+  - title: "White Paper"
+    url: /white-paper/
+  - title: "ILL Statement"
+    url: /ill-statement/
+  - title: "FAQ"
+    url: /faq/
+    - title: "Further Reading"
+    url: /further-reading/
